@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <link href="about.css" rel="stylesheet" type="text/css">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  </head>
+  <body>
+    
+    <div id="nav-placeholder"></div>
+    <script>
+      $(function(){
+	  $("#nav-placeholder").load("nav.html");
+      });
+    </script>
+
+    <main>
+
+      <div class="StarterInfo">
+	<h1>Hey, i'm Vivek Maranganti</h1>
+	<p>Allen Highschool Senior</p>
+      </div>
+
+      <div class="ParagraphInfo">
+	<p>I am a student who is looking to go to university for Computer Science, and want to specialize in machine learning. My passion in the STEM feild is innovation, and I want to furthur my knowlege in computer science in order to bring my ideas to life.</p>
+
+	
+    </main>
+  </body>
+</html>
