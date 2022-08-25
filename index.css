@@ -1,1 +1,21 @@
+main {
+    background-color:#000000;
+    margin-left: 8%;
+    margin-right:0%;
+    margin-top: 5%;
+    width: 84%;
+    height: 50%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    position: absolute;
+}
 
+h1 {
+    font-size: 60px;
+    top: 30%;
+    text-align: center;
+    color: white;
+    font-family: 'Anek Telugu', sans-serif;
+
+    position: relative;
+}
