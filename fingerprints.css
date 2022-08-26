@@ -39,3 +39,8 @@ main {
     text-indent: -22px ;
     position: relative;
 }
+
+img {
+    margin-top: 70px;
+    margin-left: 20%;
+}

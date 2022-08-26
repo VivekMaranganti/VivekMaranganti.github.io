@@ -5,6 +5,8 @@
     <link href="fingerprints.css" rel="stylesheet" type="text/css">
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
     <meta charset="UTF-8">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <meta charset="UTF-8">
   </head>
   <body>
     
@@ -78,7 +80,6 @@
       </div>
 
       <div class="Sources">
-	<h1>Sources</h1>
 	<p>classSteve Gibson, G. I. B. S. O. N. R. E. S. E. A. R. C. H. C. O. R. P. O. R. A. T. I.
           O. N. (n.d.). GRC : SSL TLS HTTPS web server certificate fingerprints
           . GRC | SSL TLS HTTPS Web Server Certificate Fingerprints. Retrieved
@@ -89,9 +90,7 @@
             have the same private key? the same public key?Stack Overflow. Retrieved
             August 25, 2022, from
           https://stackoverflow.com/questions/49595204/can-two-users-have-the-same-private-key-the-same-public-key#:~:text=Yes.,the%20same%20keypair%20is%20negligible.</p>
-      </div>
-
-      <img src="flowchart.jpg" alt="FlowChart">
+	</div>
 
 	
     </main>

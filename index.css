@@ -19,3 +19,10 @@ h1 {
 
     position: relative;
 }
+
+p {
+    text-align: center;
+    top: 40%;
+    position: relative;
+    color: white;
+}
