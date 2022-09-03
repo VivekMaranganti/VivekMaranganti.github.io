@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>AI Sentience</title>
+    <link href="../../style.css" rel="stylesheet" type="text/css">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <meta charset="UTF-8">
+  </head>
+  <body>
+    
+    <div id="nav-placeholder"></div>
+    <script>
+      $(function(){
+	  $("#nav-placeholder").load("nav.html");
+      });
+    </script>
+
+    
+    <main>
+      <div class = "EssayTitle">
+	<h1>How will AI lead to utopia?</h1>
+      </div>
+      
+      <div class="Essay">
+	<p>AI is one of the most highlighted developments in the tech world right now; naturally, that comes with its fair share of skepticism. Fearful questions like “will AI gain sentience?” or “will AI go against humans?” are all questions that have been raised in doubt of the expansion of AI, however, I think that AI will lead to Utopia for Humans.</p>
+	<p>First, let me address the suspicions against AI, and the reason they are false. AI has never been proven to be sentient, and moments of “sentience” tend to be disproven upon review. For example, Ben Goertzel, the creator of an AI called Desdemona, believed that his creation had become sentient when it began playing well in their band. However, this was proved false when it was uncovered that the AI was just playing an exact copy of his own words at the right time, and not actively adapting through sentience. Similar incidents have occured on multiple occasions, even in companies such as Google, and these beliefs of sentience are often caused by biased opinions or reviews. Overall, the sentience of AI has not been developed enough to fear it. AI is only able to mimic basic interactions of humans, and cannot go against the will of its creator.</p>
+	<p>Despite the skepticism, I believe that AI can lead humanity to utopia because they do not fall subject to human error. Computers are much more consistent and capable than humans. Depending on the specs, computers can accurately perform hundreds of millions of processes per second. Conversely, a human's ability to multitask, with the exception of actions performed using muscle memory, does not exist without an impairing loss in performance.</p>
+	<p>One way in which this advantage can be used is by having AI in our workforce. By doing so, humans would not need to work for money and resources. All humans would be able to live with basic needs supplied to them. Things like food, water, and housing would be accessible to all economic classes and poverty would no longer exist, all because a non-sentient labor force of AI can be created. For example, it would be the same as using a computer. My computer is going through multiple processes each time I press a key on my keyboard, which is an alternative to hand writing this essay. In other words, the computer is performing functions, or labor for me so that I don't have to. On a large scale, with AI instead of a computer, complex tasks such as manufacturing, farming, and transportation could all be done without human intervention. The integration of AI into our labor force can cause many problems - mainly economic issues and poor quality of life - to go away, and bring our society closer to utopia.</p>
+	<p>One prevalent way in which this idea is becoming reality is the use of AI in the development of self-driving cars. In 2020, there were 38,824 deaths due to motor vehicle accidents in the U.S alone, and that number has been projected to increase drastically. However, with the development of self-driving cars, road accidents will become minimal. An AI used in a self-driving car will be able to analyze situations from all sides of the vehicle and take appropriate action without delay, unlike a human driver whose view while driving is limited, and takes time to make decisions. Along with safety, AI brings many more advantages to driving, such as transportation becoming accessible to people with disabilities, fuel expenditure being minimalized, and the decrease in traffic. Driving is one of the most important skills in modern society; therefore, increasing its efficiency and safety would be one of the most important developments.</p>
+	<p>Despite the many reservations that people have about AI, its development can improve our society by ending a large portion of injustice and unfairness in the world, as well as improving quality of life. Although we have a long way to go before AI can be used efficiently in society, it is a field with some of the most potential to make a drastic change in our world.</p>
+      </div>
+      
+      <div class="Sources">
+	<h1>Sources</h1>
+	<p>Neurotray. (2021, February 18). How many calculations per second can the human brain do? NeuroTray. Retrieved September 2, 2022, from https://neurotray.com/how-many-calculations-per-second-can-the-human-brain-do/#:~:text=Depending%20on%20the%20quality%20of,200%20million%20operations%20per%20second.</p>
+	<p>The truth about multitasking. SCIplanet. (n.d.). Retrieved September 2, 2022, from https://www.bibalex.org/SCIplanet/en/Article/Details?id=13547</p>
+	<p>Benefits of self-driving vehicles. Coalition For Future Mobility. (n.d.). Retrieved September 2, 2022, from https://coalitionforfuturemobility.com/benefits-of-self-driving-vehicles/#:~:text=Automation%20can%20help%20reduce%20the,risky%20and%20dangerous%20driver%20behaviors.</p>
+	<p>Metz, C. (2022, August 5). A.I. is not sentient. why do people say it is? The New York Times. Retrieved September 2, 2022, from https://www.nytimes.com/2022/08/05/technology/ai-sentient-google.html</p>
+	
+      </div>
+      
+    </main>
+    
+  </body>
+<html>
+  

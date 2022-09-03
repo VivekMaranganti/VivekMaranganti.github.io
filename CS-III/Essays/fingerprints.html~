@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <title>Fingerprints</title>
-    <link href="fingerprints.css" rel="stylesheet" type="text/css">
+    <link href="../../style.css" rel="stylesheet" type="text/css">
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
     <meta charset="UTF-8">
   </head>
@@ -91,7 +91,7 @@
           https://stackoverflow.com/questions/49595204/can-two-users-have-the-same-private-key-the-same-public-key#:~:text=Yes.,the%20same%20keypair%20is%20negligible.</p>
       </div>
 
-      <img src="flowchart.jpg" alt="FlowChart">
+      <img src="../../Assets/flowchart.jpg" alt="FlowChart">
 
 	
     </main>
