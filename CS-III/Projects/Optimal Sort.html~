@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <link href="../../style.css" rel="stylesheet" type="text/css">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <meta charset="UTF-8">
+  </head>
+  <body>
+    
+    <div id="nav-placeholder"></div>
+    <script>
+      $(function(){
+	  $("#nav-placeholder").load("nav.html");
+      });
+    </script>
+
+    <main>
+
+      <div class="sort">
+	<h1>Optimal Sorting</h1>
+	<a href="https://github.com/VivekMaranganti/CS-II-III-Optimized-Sorting">Github Repository for Sorting Algorithm</a>
+      </div>
+
+      <div class="sortImg">
+      <img src="../../Assets/SortingFlowChart.jpg" alt="Sorting Flow Chart">
+
+      </div>
+
+    </main>
+  </body>
+</head>
+<html>
+  

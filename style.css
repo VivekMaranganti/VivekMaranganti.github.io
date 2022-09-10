@@ -107,3 +107,18 @@ img {
 
 
 /* Essays End */
+
+/*Optimal Sort Start */
+
+.sort h1{
+    text-align: center;
+}
+
+.sort a {
+    margin-left: 41%;
+}
+
+.sortImg {
+    margin-left: 4%;
+    margin-top: 50px;
+}
