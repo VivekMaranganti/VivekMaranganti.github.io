@@ -1,0 +1,111 @@
+
+<html>
+  <head>
+    <title>Vivek's Digital Portfolio</title>
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+    <style>
+      
+      /* https://www.youtube.com/watch?v=FEmysQARWFU&ab_channel=KevinPowell - Follow along video for the navbar
+ https://www.w3schools.com/css/css_text_align.asp - text allign*/
+
+body {
+    margin: 0;
+    background-color: #000000;
+    font-weight: 300;
+		     
+}
+
+.header {
+    width: 90%;
+    margin: 0 auto;
+}
+
+header {
+    background: #3A3B3C;
+}
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+nav {
+    float: left;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 5.6%;
+
+    position: relative;
+}
+
+nav a {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #ADADC9;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    color: white;
+}
+
+nav a::before {
+    content: '';
+    display: block;
+    top: 60%;
+    height: 2px;
+    width: 0%;
+    background-color: white;
+
+    position: absolute;
+
+    transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+    width: 100%;
+
+
+    </style>
+  </head>
+  <body>
+    
+    <header>
+      
+      <div class="header">
+	
+	<nav>
+	  <ul>
+	    <li><a href="index.html">Home</a></li>
+	    <li><a href="Personal/about.html">About Me</a></li>
+	    <li><a href="Personal/academic.html">Academic</a></li>
+	    <li><a href="CS-II/project.html">Personal Projects</a></li>
+	    <li><a href="CS-III/Essays/fingerprints.html">Fingerprints</a></li>
+	    <li><a href="CS-III/Essays/AI Sentience.html">AI Sentience</a></li>
+	    <li><a href="CS-III/Projects/Optimal Sort.html">Optimal Sort</a></li>
+	  </ul>
+	</nav>
+	
+      </div>
+    </header>
+
+    <main>
+
+
+      
+
+
+    </main>
+  </body>
+</html>
+

@@ -114,7 +114,9 @@ img {
     text-align: center;
 }
 
-.sort a {
+.sort a:link {
+    color: white;
+    text-align: center;
     margin-left: 41%;
 }
 
