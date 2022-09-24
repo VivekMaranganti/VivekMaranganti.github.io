@@ -44,14 +44,14 @@
           transported. This was one of the main reason HTTPS was created: to encrypt data between a client and server,
           preserving security and privacy. This is done through the use of third parties called &quot;Certificate
           Authorities,&quot; who sign the security certificates of websites who prove their identities outside of the
-          internet. When a browser tries to access a website, the website must use that signed certificate to prove
+          internet (Fingerprints, 2022). When a browser tries to access a website, the website must use that signed certificate to prove
           that it is legitimate. Also, the use of hashes in these certificates makes them secure. Hashes are complex
           algorithms that process all information that they are given. These hashes increase security because changing
           a single part of the hash can change a large part of the certificate. The widespread use of HTTPS caused a
           period of high security on the internet since HTTPS is so secure that no one is able to break its
           encryption, however, that security was compromised by the use of HTTPS Proxy Appliances.</p>
 	<p>Despite the security of HTTPS&#39;s encryption, HTTPS
-          Proxy Appliances (can also be referred to as SSL Proxy) can be used to intercept and steal information.
+          Proxy Appliances (can also be referred to as SSL Proxy) can be used to intercept and steal information (Fingerprints, 2022).
           These proxies work as a &quot;man in the middle&quot; attack, where the data you are passing from your
           browser is received by someone or something in the middle of the data&#39;s transmission. The HTTPS Proxy
           Appliance works in multiple steps. First, it intercepts the encrypted data coming from a user. Then, it
@@ -60,7 +60,7 @@
           fraudulent website, and a connection is formed. The users data can then be collected, stored, examined, and
           more. Finally, the HTTPS Proxy Appliance re-encrypts the data and sends it to the proper website.</p>
 	<p>Although this SSL interception cannot be prevented, it
-          can be reliably detected. This is because of the way that public and private keys interact. A public key
+          can be reliably detected (Fingerprints, 2022). This is because of the way that public and private keys interact. A public key
           (provided by the website&#39;s security certificate) can encrypt a user&#39;s data, and the private key
           (secured on a remote server) can decrypt a user&#39;s data. However, a private key can only decrypt data
           from its paired public key. Because of this, the SSL Proxy Application is forced to provide a public key
@@ -69,11 +69,11 @@
           do not match, the user is connected to a fraudulent website.</p>
 	<p>Cross-checking public keys is generally reliable, but
           there can be instances of false positives and false negatives. A false positive usually occurs when testing
-          the public key of widespread services, such as Google and Microsoft. Large companies such as these usually
+          the public key of widespread services, such as Google and Microsoft (Fingerprints, 2022). Large companies such as these usually
           possess multiple security certificates, so when they are tested, users may get a different public key, even
           though their connection is not being intercepted. A false negative, though it is extremely unlikely, could
           happen when the private key of an SSL interception&#39;s fake website matches the private key of the website
-          that the user is trying to connect to. If this happens, the fraudulent public key would match the real
+          that the user is trying to connect to (ShubhamShubham, 2022). If this happens, the fraudulent public key would match the real
           public key, and your test would show that you are not being intercepted, even if you are.</p>
 	<p>One example of a proxy being used to take information is
           GoGuardian. GoGuardian has access to nearly all parts of our browser, and I believe that it is an invasion
