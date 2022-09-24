@@ -1,4 +1,3 @@
-
 <html>
   <head>
     <title>Vivek's Digital Portfolio</title>
@@ -8,72 +7,72 @@
       /* https://www.youtube.com/watch?v=FEmysQARWFU&ab_channel=KevinPowell - Follow along video for the navbar
  https://www.w3schools.com/css/css_text_align.asp - text allign*/
 
-body {
-    margin: 0;
-    background-color: #000000;
-    font-weight: 300;
-		     
-}
+      body {
+	  margin: 0;
+	  background-color: #F8F0E3;
+	  font-weight: 300;
+	  
+      }
 
-.header {
-    width: 90%;
-    margin: 0 auto;
-}
+      .header {
+	  width: 100%;
+	  margin: 0 auto; 
+      }
 
-header {
-    background: #3A3B3C;
-}
+      header {
+	  background: #110B11;
+      }
 
-header::after {
-    content: '';
-    display: table;
-    clear: both;
-}
+      header::after {
+	  content: '';
+	  display: table;
+	  clear: both;
+      }
 
-nav {
-    float: left;
-}
+      nav {
+	  float: left;
+      }
 
-nav ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
+      nav ul {
+	  margin: 0;
+	  padding: 0;
+	  list-style: none;
+      }
 
-nav li {
-    display: inline-block;
-    margin-left: 70px;
-    padding-top: 5.6%;
+      nav li {
+	  display: inline-block;
+	  margin-left: 70px;
+	  padding-top: 3.80%;
+	  padding-bottom: 3%;
+	  position: relative;
+      }
 
-    position: relative;
-}
+      nav a {
+	  font-family: 'Source Sans Pro', sans-serif;
+	  color: white;
+	  text-decoration: none;
+	  text-transform: uppercase;
+      }
 
-nav a {
-    font-family: 'Source Sans Pro', sans-serif;
-    color: #ADADC9;
-    text-decoration: none;
-    text-transform: uppercase;
-}
+      nav a:hover {
+	  color: white;
+      }
 
-nav a:hover {
-    color: white;
-}
+      nav a::before {
+	  content: '';
+	  display: block;
+	  top: 40%;
+	  height: 2px;
+	  width: 0%;
+	  background-color: white;
 
-nav a::before {
-    content: '';
-    display: block;
-    top: 60%;
-    height: 2px;
-    width: 0%;
-    background-color: white;
+	  position: absolute;
 
-    position: absolute;
+	  transition: all ease-in-out 250ms;
+      }
 
-    transition: all ease-in-out 250ms;
-}
-
-nav a:hover::before {
-    width: 100%;
+      nav a:hover::before {
+	  width: 100%;
 
 
     </style>
@@ -90,8 +89,7 @@ nav a:hover::before {
 	    <li><a href="Personal/about.html">About Me</a></li>
 	    <li><a href="Personal/academic.html">Academic</a></li>
 	    <li><a href="CS-II/project.html">Personal Projects</a></li>
-	    <li><a href="CS-III/Essays/fingerprints.html">Fingerprints</a></li>
-	    <li><a href="CS-III/Essays/AI Sentience.html">AI Sentience</a></li>
+	    <li><a href="CS-III/Essays/Essays.html">Essays</a></li>
 	    <li><a href="CS-III/Projects/Optimal Sort.html">Optimal Sort</a></li>
 	  </ul>
 	</nav>
