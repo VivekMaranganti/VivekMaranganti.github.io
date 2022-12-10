@@ -139,7 +139,7 @@ img {
 /*Essays.html Start*/
 
 .EssayLinks a{
-    margin-left: 25%;
+    margin-left: 5%;
 }
 
 
@@ -162,3 +162,20 @@ img {
     position: relative;
 }
 */
+/*Essays.html End*/
+
+/*Business Plan Start*/
+.BusinessPlan h1 {
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+    margin-top: 40px;
+    position: relative;
+}
+
+.BusinessPlan p {
+    font-family: "Times New Roman", Times, serif;
+    text-align: left;
+    text-indent: 50px;
+    width: 50%;
+    margin-left: 24%;
+}

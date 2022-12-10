@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>AI Sentience</title>
+    <link href="../../../style.css" rel="stylesheet" type="text/css">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <meta charset="UTF-8">
+  </head>
+  <body>
+    
+    <div id="nav-placeholder"></div>
+    <script>
+      $(function(){
+	  $("#nav-placeholder").load("nav.html");
+      });
+    </script>
+
+    
+    <main>
+      <div class = "BusinessPlan">
+	
+	<h1>Identity</h1>
+	<p>Our business plan is to create a program that converts code from one programming language to another. The first conversion will be from Swift to C++, because Swift is based on C.</p>
+	
+	<h1>Problem</h1>
+	<p>Because structures and syntax are not always identical in different programming languages, manually converting from one language to another is a time consuming process. Furthermore, modern languages differ greatly from older languages in terms of readability, modern languages being more readable. Because of this, developers choose modern languages over old ones, despite the fact that compiled languages such as C++, despite being old, have a significant speed advantage over interpreted languages such as python.
+	</p>
+
+	<h1>Our Solution</h1>
+	<p>To solve this problem, we are going to create a program that converts slower, but readable programming languages into faster, compiled programming languages. This program will run on a website, and will work by allowing users to input text files of a selected language, or a file type of the language. The first conversion that the program will be able to do is from Swift to C++, since Swift is an extremely readable language, while C++ is extremely fast, though not easily readable.
+	</p>
+
+	<h1>Target Market</h1>
+	<p>Our target audience is programmers who want to optimize/increase the speed of their code, since the conversion from a slow language to a fast one is a good way to do so. With development, this could also be used in companies to convert large programs to a faster language, increasing efficiency on a large scale.</p>
+
+	<h1>The Competition</h1>
+	<p>There are already some code converters, but they are usually unpolished. They tend to be somewhat unreliable since they change variable names, and sometimes make the code very difficult to read. We will create a code converter that works to reduce these shortcomings, while maintaining the positive aspects of other converters.</p>
+
+	<h1>Revenue Streams</h1>
+	<p>In order to create revenue streams, we will place advertisements on our website. By doing so, we will get some revenue from the users who visit our website. After significant development, this program may become a paid app for the use of large companies, while still maintaining the free, unpaid website. We will incentivise companies to buy the app by advertising faster speeds on the app compared to the website, and the ability to input extremely large programs on the app only.</p>
+
+	<h1>Marketing Activities</h1>
+	<p>After our program reaches a point in development where a large amount of structures can be converted into other languages, we will market using Google Ads and social media. We will use a targeted ad system that will cause it to reach our target audience.</p>
+
+	<h1>Expenses</h1>
+	<p>The only expenses we will have are paying for advertisements, and hosting a domain for the website. We would start advertising the product at a later point in development through google ads, however, that is only if ads are deemed as necessary. If we do implement ads, we would have a budget of $20 a month. Domain hosting would only be necessary if this project were to move away from codermerlin’s server, but the cost of hosting a server would be $7 a month (after a free trial) through a payment plan on GoDaddy.</p>
+
+	<h1>Team and Key Roles</h1>
+	<p>There are currently 4 team members: Vivek Maranganti, Neeraj Gogate, Evan Ye, and Karthik Peravali. All members will work as both frontend developers and backend developers. This is because there is not enough front end development needed to warrant a separate team for it. However, as we near completion, there will be a frontend and backend team for final touches and the polishing of the website.</p>
+
+	<h1>Milestones</h1>
+	<p>As the business grows, we will increase the support for various languages, especially ones with non traditional syntax. We will also expand the libraries so that the converted code will work in the intended way.</p>
+
+	<img src="../../../Assets/CSIII-Ghant" alt="Ghant(CS-III ISP)">
+	
+      </div>
+    </main>
+  </body>
+</html>
+

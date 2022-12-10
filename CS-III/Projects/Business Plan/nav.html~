@@ -85,19 +85,22 @@
 	
 	<nav>
 	  <ul>
-	    <li><a href="../index.html">Home</a></li>
-	    <li><a href="../Personal/about.html">About Me</a></li>
-	    <li><a href="../Personal/academic.html">Academic</a></li>
-	    <li><a href="project.html">Personal Projects</a></li>
-	    <li><a href="../CS-III/Essays/Essays.html">Essays</a><li>
-	    <li><a href="../CS-III/Projects/Optimal Sort.html">Optimal Sort</a></li>
-	    <li><a href="../CS-III/Projects/Business Plan/index.html">Business Plan</a></li>
-	    <li><a href="../CS-III/Projects/Business Plan/considered.html">Considered Plans</a></li> 
+	    <li><a href="../../../index.html">Home</a></li>
+	    <li><a href="../../../Personal/about.html">About Me</a></li>
+	    <li><a href="../../../Personal/academic.html">Academic</a></li>
+	    <li><a href="../../../CS-II/project.html">Personal Projects</a></li>
+	    <li><a href="../../Essays/Essays.html">Essays</a></li>
+	    <li><a href="../Optimal Sort.html">Optimal Sort</a></li>
+	    <li><a href="index.html">Business Plan</a></li>
 	  </ul>
 	</nav>
 	
       </div>
     </header>
+
+    <main>
+
+
       
 
 

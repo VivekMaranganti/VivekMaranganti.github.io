@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+    <title>Decision Making Influenced by Bias</title>
+    <link href="../../style.css" rel="stylesheet" type="text/css">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <meta charset="UTF-8">
+
+  </head>
+  <body>
+    <div id="nav-placeholder"></div>
+    <script>
+      $(function(){
+	  $("#nav-placeholder").load("nav.html");
+      });
+    </script>
+
+    <main>
+      <div class="EssayTitle">
+	<h1>Decision Making Influenced by Bias</h1>
+      </div>
+      <div class="EssayInfo">
+	<p>Vivek Maranganti</p>
+	<p>Allen ISD STEAM Center</p>
+	<p>Advanced Computer Science III</p>
+	<p>Mr. Ben-Yaakov</p>
+	<p>12/09/2022</p>
+      </div>
+      <div class="Essay">
+	<p>Bias is a controversial topic in the world of computer science, said to influence the creation of new programs, features, and even coding languages by causing results to be “different from the intended function of the algorithm.” (Wikipedia, 2022).  Before starting a project such as our ISP, understanding, identifying, and eliminating unwanted bias is an important step to take in order to ensure that the created product returns correct and functional results.</p>
+	<p>The biases that I expect to most heavily influence the creation of our ISP project are: authority bias, contextual bias, in-group bias, availability bias, and the false consensus bias. These types of biases have a high probability of appearing throughout the process of creating our ISP project because they all concern teamwork, and the ability to make objective decisions despite disagreements within the group.</p>
+	<p>One bias that may affect our ISP project is authority bias, the tendency to hold the opinion of the authority figure of the group to a higher regard, simply because they have authority (Lindsay Morgia, 2021). This issue could arise when group members blindly trust the opinions of those in leadership positions, such as project managers. In order to ensure that authority bias does not occur, I will encourage all group members to give input to discussions, and consider all opinions objectively. By doing this, all ideas will have an equal emphasis, eliminating the influence of authority bias.
+	</p>
+	<p>Another bias that can influence our ISP project is contextual bias, the tendency for one’s decision making to be influenced by irrelevant background information (MasterClass, 2020). This can cause results to be influenced by bias, since this irrelevant background information can affect the decisions we make when deciding the best way to translate certain structures from one coding language to another. In order to prevent this, I will request the logic and reasoning behind suggestions be explained, eliminating doubt and ensuring that all decisions are done for a justifiable reason.
+	</p>
+	<p>Next, in-group bias is the tendency to favor those who are in-group to an individual over those who are out-group (MasterClass, 2020). This bias can cause a strong divide between members of my ISP group, leading to favoritism and unobjective consideration of others opinions. In order to solve this problem, I will ensure that everyone in the group feels equally involved in the process of creating our project to ensure that in-groups do not form.
+	</p>
+	<p>Availability bias is the tendency to make decisions based only on information that is readily available in one’s brain (MasterClass, 2020). This is a problem because it can lead to uninformed decisions, which may be biased toward an individual's habits/opinions. In order to prevent this, I will make well-informed decisions by considering multiple viewpoints and any relevant information. By consulting multiple teammates in conjunction with the use of a wide range of information, I can limit availability bias in my ISP group.</p>
+	<p>Finally, false consensus bias is the tendency to see one's own beliefs and habits as the appropriate or normal ones (MasterClass, 2020). This can cause tunnel vision and stubbornness due to the belief that one’s own ideas/responses are always the correct ones. In order to prevent this, I will listen to each person’s ideas in a way that considers all of them equally, and make sure to not put my own ideas in higher regard simply because they are mine.</p>
+	<p>By making informed decisions, while still considering all of the members' opinions equally, the influence of bias within my ISP group can be limited, and a more successful product based on objective decisions can be created.
+	</p>
+      </div>
+      <div class="Sources">
+	<h1>Sources</h1>
+	<p>How to identify bias: 14 types of bias - 2022. MasterClass. (n.d.). Retrieved December 9, 2022, from https://www.masterclass.com/articles/how-to-identify-bias</p>
+	<p>Lindsay Morgia, M. S. (2021, November 4). Authority bias: When we irrationally trust the judgement of experts. Ness Labs. Retrieved December 9, 2022, from https://nesslabs.com/authority-bias#:~:text=The%20authority%20bias%20is%20our,a%20reasonable%20thing%20to%20do.</p>
+      </div>
+    </main>
+  </body>
+</html>
